@@ -1,21 +1,3 @@
-// let nama = document.getElementById('name').value
-// let email = document.getElementById('email').value
-// let phone = document.getElementById('phone').value
-// let subject = document.getElementById('subject').value
-// let address = document.getElementById('address').value
-
-
-// let nama = 'jhackson'
-// let email = 'yerwiu@gmail'
-// let phone = 3254446
-// let subject = 'dsfdg'
-// let address = 'jakarta'
-
-// let data = [nama,email,phone,subject,address]
-
-
-
-
 
 function getData() {
     let nama = document.getElementById('name').value
@@ -44,8 +26,8 @@ function getData() {
     window.location.href =  `mailto:bayujiantoro98@gmail.com?subject=${subject}&body=Halo Nama saya ${nama}, alamat saya ${address}, bisakah anda menghubungi saya di ${phone}`
 
     let data = {nama,email,phone,subject,address}
-    
     console.log(data)
+    
 }
 
 
