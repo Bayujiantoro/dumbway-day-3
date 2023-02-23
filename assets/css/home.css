@@ -11,12 +11,16 @@ body {
     border-radius: 7px; 
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);    
     margin-top: 50px; 
-    padding-bottom: 50px; 
+    margin-bottom: 50px;
+    padding-bottom: 30px; 
+    padding-top: 30px; 
     display: flex;
+    align-items: center;
 }
 
 .card-content {
-    margin: 50px; padding-top: 50px;
+    margin-left: 50px; 
+    margin-right: 50px; 
 }
 
 .judul-deskription {
@@ -61,6 +65,7 @@ body {
 
 .card-img {
     margin: 50px;
+    /* background-color: red; */
 }
 
 .card-img img {
@@ -68,6 +73,7 @@ body {
     display: block; 
     border-radius: 7px 7px 0 0; 
     box-shadow:0 0 8px rgba(0, 0, 0, 0.5);
+    /* margin-top: 50px; */
 }
 
 .card-img .card-nama {
@@ -90,3 +96,21 @@ body {
 .card-img .profesi {
     font-size: 20px; display: flex; justify-content: center;
 }
+
+
+@media screen and (max-width: 1146px) {
+    .container {
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+    .card-contact {
+
+        justify-content: center;
+    }
+
+    .card-sosmed {
+        justify-content: center;
+    }
+  }
