@@ -108,6 +108,7 @@ textarea {
     border-radius: 15px;
     margin-top: 10px;
     margin-left: 70%;
+    cursor: pointer;
 }
 
 input[type=number]::-webkit-inner-spin-button {
